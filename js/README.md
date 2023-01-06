@@ -1,4 +1,4 @@
-# teamcubation.github.io
+# swim art 
 ## Static web site with language compiler
 ### Install:
     
