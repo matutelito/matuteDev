@@ -65,8 +65,8 @@ nav{
 .logo{
 	font-family: 'Jua', sans-serif;
 	font-size: 3.5em;
-  	font-weight: 200;
-  	color: #22e9e0;
+  font-weight: 200;
+  color: #22e9e0;
 }
 
 .btn {
@@ -95,15 +95,15 @@ nav{
   justify-content: center;
   align-items: center;
   padding: 10%;
-  border: 3px solid #0aadb3;
+  /* border: 3px solid #0aadb3; */
   text-align: center;
 	background-color: white;
-	/* box-shadow: 0px 5px 5px rgba(165, 165, 165, 0.336); */
 }
 
 .minimal-card > h5{
-  color: #999999;
-  font-size: 1.2em;
+  color: #727272;
+  font-size: calc(1em + 0.2vw);
+    line-height: 1.3em;
 }
 
 .galery-card{
@@ -131,7 +131,6 @@ nav{
 
 .col-4{
 	position:relative;
-	z-index: 5;
 }
 
 .material-symbols-outlined {
@@ -140,4 +139,8 @@ nav{
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+
+.row{
+	margin: 0!important;
 }

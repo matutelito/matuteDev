@@ -8,19 +8,22 @@ body, html{
 }
 
 h2{
-    font-size: 3.5em;
+    font-size: calc(1.5em + 2vw);
 }
 
 h3{
-    font-size: 2.5em;
+    font-size: calc(1.5em + 1vw);
+    font-weight: 0;
 }
 h4{
-    font-size: 1.7em;
+    font-size: calc(1em + 1vw);
     font-weight: 0;
 }
 p{
-    font-size: 1.2em;
+    font-size: calc(1em + 0.2vw);
+    line-height: 1.3em;
 }
+
 a{
     font-size: 1.2em;
     position: relative;
@@ -64,14 +67,12 @@ ul{
 
 #banner {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index: 2;
+    padding: 5% 0;
     text-align: center;
     color: white;
-    z-index: 5;
     margin-top: 3%;
-    /* height: calc(80vh - 105px); */
+    height: calc(80vh - 105px);
 }
 
 .background{
@@ -86,13 +87,6 @@ ul{
     filter: brightness(0.5);
 }
 
-#banner-contents {
-    position: relative;
-    z-index: 2;
-    padding: 5% 0;
-    /* max-width: 800px; */
-    margin: 0 auto;
-}
 
 #banner-deco {
     position: absolute;
@@ -207,17 +201,11 @@ ul{
 
 #galery{
     position: relative;
-    z-index: 10;
-    /* background-color: #16a5a9;
-    background-color: #f3f3f3; */
-
 }
 
 #galery-contents {
-    position: relative;
     padding: 0% 0;
     min-height: 80vh;
-    z-index: 5;
     margin: 0em auto 0 auto;
     max-width: 1500px;
 }
