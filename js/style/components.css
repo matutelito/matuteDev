@@ -1,0 +1,134 @@
+nav{
+	position: sticky;
+	top: 0%;
+	z-index: 4;
+	width: 100%;
+	opacity: 1;
+	transition: all 1s;
+}
+
+#navBar{
+	display: flex;
+	width: 100%;
+	padding: 20px 5% 0 5%;
+  justify-content: center;
+}
+
+#navBar .logo{
+	display: flex;
+	width: 20%;
+	align-items: center;
+}
+
+#navBar .navigate{
+	display: flex;
+	width: 40%;
+	justify-content: space-evenly;
+  align-items: center;
+	color: white;
+	font-family: 'Anek Bangla';
+}
+
+#navBarMobile{
+	position: absolute;
+	width: 100%;
+	background-color: #f2eeeef7;
+	display: none;
+}
+
+#navBar .btn-menu-mobile{
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigate-mobile{
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+}
+
+.navigate-mobile > a{
+	margin: 5px 0;
+}
+
+.hidden-nav{
+	opacity: 0;
+	transition: all 1s;
+}
+
+.show-nav{
+	opacity: 1!important;
+	transition: all 2s;
+}
+
+.logo{
+  font-family: 'Jua', sans-serif;
+  font-family: 'Nerko One', cursive;
+  font-size: 3.5em;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  margin: 5px;
+  border: none;
+  border-radius: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.3em;
+  font-weight: 200;
+  outline: 0;
+  padding: 0.6em 1em;
+  transition: all 0.1s ease;
+  border: 3px solid aqua;
+  max-width: 200px;
+}
+
+.btn:hover{
+  background-color: transparent;
+}
+
+.minimal-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  border: 1px solid rgba(216, 216, 216, 0.438);
+  text-align: center;
+}
+
+.minimal-card > h5{
+  color: #727272;
+  font-size: 1.2em;
+}
+
+.galery-card{
+	margin: 10px;
+	cursor: pointer;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+
+.galery-card:hover{
+	filter: brightness(0.5);
+}
+
+.galery-card > img{
+	transition:all .5s ease-in-out;
+}
+
+
+.galery-card > img:hover{
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+	transition:all .5s ease-in-out;
+}
+
+.col-4{
+	position:relative;
+	z-index: 5;
+}

@@ -1,0 +1,209 @@
+body, html{
+	margin: 0;
+	width: 100%;
+    height: 100%;
+    /* background-color: #42a5a3; */
+    background-color: #ffffff;
+
+	font-family: 'Inter', sans-serif;
+}
+
+h2{
+    font-size: 3.5em;
+}
+
+h3{
+    font-size: 2.5em;
+}
+h4{
+    font-size: 1.7em;
+    font-weight: 0;
+}
+p{
+    font-size: 1.2em;
+}
+a{
+    font-size: 1.2em;
+    position: relative;
+    z-index: 10;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+a:hover{
+    color: aqua;
+}
+
+ul{
+    list-style: none;
+}
+
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+	background:#f8f9fa;
+} 
+
+::-webkit-scrollbar-thumb {
+	background-color: #888787;
+    border: 2px solid transparent;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+	background: #3bcce6;
+}
+
+/* BANNER ********************************** */
+
+#banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    z-index: 5;
+    margin-top: 3%;
+    /* height: calc(80vh - 105px); */
+}
+
+.background{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    margin-bottom: 0;
+    height: 90vh;
+    width: 100%;
+    filter: brightness(0.5);
+}
+
+#banner-contents {
+    position: relative;
+    z-index: 2;
+    padding: 5% 0;
+    /* max-width: 800px; */
+    margin: 0 auto;
+}
+
+#banner-deco {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#banner-deco .scroll {
+    position: absolute;
+    z-index: 2;
+}
+
+#banner-deco .scroll:nth-of-type(1) {
+    filter: opacity(0.4);  
+    width: 50%;
+    top: -60%;
+    left: 50%;
+    z-index: 1;
+    position: absolute;
+}
+
+/* #banner-deco .scroll:nth-of-type(2) {
+    top: 55%;
+    left: 73%;
+}
+
+/* SERVICES     ************************************** */
+
+#services{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#services-contents {
+    position: relative;
+    z-index: 5;
+    margin: 0em auto 0 auto;
+    max-width: 1500px;
+    padding: 7% 0;
+}
+
+
+
+/*  */
+#design{
+    position: relative;
+    z-index: 2;
+}
+
+#design-contents {
+    position: relative;
+    padding: 10% 0 0 0;
+    min-height: 100vh;
+    z-index: 5;
+    margin: 0em auto 0 auto;
+    max-width: 1500px;
+}
+
+/*  */
+
+#build{
+    position: relative;
+    z-index: 2;
+    background-color: #f8f9faa9;
+}
+
+#build-contents {
+    position: relative;
+    padding: 5% 0;
+    min-height: 80vh;
+    z-index: 5;
+    margin: 0em auto 0 auto;
+    max-width: 1500px;
+}
+
+/*  */
+
+#service{
+    position: relative;
+    z-index: 2;
+    background-color: #16a5a9;
+}
+
+#service-contents {
+    position: relative;
+    padding: 5% 0 0 0;
+    min-height: 80vh;
+    z-index: 5;
+    margin: 0em auto 0 auto;
+    max-width: 1500px;
+}
+
+#galery{
+    position: relative;
+    z-index: 10;
+    /* background-color: #16a5a9;
+    background-color: #f3f3f3; */
+
+}
+
+#galery-contents {
+    position: relative;
+    padding: 0% 0;
+    min-height: 80vh;
+    z-index: 5;
+    margin: 0%;
+}
+
